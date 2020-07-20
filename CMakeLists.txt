@@ -6,7 +6,7 @@ project(flatbuffers-fetch-cmake)
 include(FetchContent)
 FetchContent_Declare(
   uygautfzfgazeyfgezutfgejfzh
-  GIT_REPOSITORY https://github.com/OlivierLDff/Recycler
+  GIT_REPOSITORY https://github.com/OlivierLDff/flatbuffers
   GIT_TAG        master
 )
 FetchContent_MakeAvailable(uygautfzfgazeyfgezutfgejfzh)
