@@ -5,8 +5,8 @@ message(STATUS "GIT_VERSION : ${GIT_VERSION}")
 project(flatbuffers-fetch-cmake)
 include(FetchContent)
 FetchContent_Declare(
-  flatbuffers
+  uygautfzfgazeyfgezutfgejfzh
   GIT_REPOSITORY https://github.com/google/flatbuffers
   GIT_TAG        master
 )
-FetchContent_MakeAvailable(flatbuffers)
+FetchContent_MakeAvailable(uygautfzfgazeyfgezutfgejfzh)
