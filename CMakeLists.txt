@@ -6,6 +6,5 @@ FetchContent_Declare(
   flatbuffers
   GIT_REPOSITORY https://github.com/google/flatbuffers
   GIT_TAG        master
-  GIT_SHALLOW    1
 )
 FetchContent_MakeAvailable(flatbuffers)
