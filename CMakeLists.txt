@@ -5,6 +5,6 @@ include(FetchContent)
 FetchContent_Declare(
   flatbuffers
   GIT_REPOSITORY https://github.com/google/flatbuffers
-  GIT_TAG        cc44a4442716601600aa50fb8a42abd55294212c
+  GIT_TAG        36fbe6f13e7e3a370edae090ca2292fae45235a9
 )
 FetchContent_MakeAvailable(flatbuffers)
