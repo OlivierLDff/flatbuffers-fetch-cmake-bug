@@ -1,0 +1,13 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  Build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Configure
+        run: mkdir -p build && cmake -DCMAKE_BUILD_TYPE="Release" -B build -S .
