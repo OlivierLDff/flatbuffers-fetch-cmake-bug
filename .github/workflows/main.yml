@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: OlivierLDff/get-cmake@latest
+      - uses: lukka/get-cmake@3.17.1
 
       - name: Configure
         run: mkdir -p build && cmake -DCMAKE_BUILD_TYPE="Release" -B build -S .
