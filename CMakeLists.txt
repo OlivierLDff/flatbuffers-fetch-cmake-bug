@@ -3,7 +3,7 @@ project(flatbuffers-fetch-cmake)
 include(FetchContent)
 FetchContent_Declare(
   flatbuffers
-  GIT_REPOSITORY https://github.com/OlivierLDff/flatbuffers
+  GIT_REPOSITORY https://github.com/google/flatbuffers
   GIT_TAG        master
 )
 FetchContent_MakeAvailable(flatbuffers)
