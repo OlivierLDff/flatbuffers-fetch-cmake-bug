@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Configure
-        run: mkdir -p build && cmake -DCMAKE_BUILD_TYPE="Release" -B build -S .
+        run: mkdir -p build && cmake -DCMAKE_BUILD_TYPE="Release" -DFETCHCONTENT_QUIET=OFF -B build -S .
